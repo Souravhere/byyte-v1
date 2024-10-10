@@ -14,10 +14,35 @@ const NotFound: React.FC = () => {
       {/* Developer Section */}
       <div className="mt-8">
         <h2 className="text-2xl font-semibold mb-2">Developer Section</h2>
-        <p className="text-sm text-gray-600">
-          If you are seeing this page, it means that the route "<span className="text-blue-500">{currentPath}</span>" 
-          does not exist. Please double-check your URL or contact support.
+        <p className="text-base text-gray-400 mb-4 px-4 mt-3">
+          This Website was crafted by Sourav Chhimpa, a freelance web developer from India.
         </p>
+        <div className="flex space-x-4 justify-center">
+          <a
+            href="https://github.com/souravhere"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:bg-blue-300 px-2 rounded-lg hover:text-black duration-500"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sourav-chhimpa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:bg-blue-300 px-2 rounded-lg hover:text-black duration-500"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://twitter.com/souravchhimpa1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:bg-blue-300 px-2 rounded-lg hover:text-black duration-500"
+          >
+            Twitter
+          </a>
+        </div>
       </div>
       <Link
       href='/'
