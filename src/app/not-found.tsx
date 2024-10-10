@@ -9,7 +9,7 @@ const NotFound: React.FC = () => {
   return (
     <div className="w-full h-screen bg-transparent flex flex-col items-center justify-center text-center">
       <h1 className="text-4xl font-bold mb-4">404</h1>
-      <p className="text-lg mb-4">This page "<span className="text-red-500">{currentPath}</span>" is not here.</p>
+      <p className="text-lg mb-4">This page <span className="text-gray-300 bg-gray-700 px-2 py-1 rounded-lg">{currentPath}</span> is not  available.</p>
 
       {/* Developer Section */}
       <div className="mt-8">
